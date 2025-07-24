@@ -1,0 +1,5 @@
+Problema: exceso de constructores y parámetros.
+
+Solución: implementación del patrón Builder.
+
+Beneficios: claridad, seguridad, escalabilidad.
