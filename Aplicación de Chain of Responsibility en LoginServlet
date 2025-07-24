@@ -1,0 +1,13 @@
+El controlador `LoginServlet` realiza validaciones de usuario de forma secuencial y rígida, dificultando el mantenimiento y extensión.
+
+
+Se implementó el patrón de diseño **Chain of Responsibility**, creando una cadena de validadores independientes:
+
+- `UsernameNotEmptyValidator`
+- `PasswordNotEmptyValidator`
+- `UserExistsValidator`
+
+ Beneficios
+- Validaciones desacopladas
+- Fácil de extender y reutilizar
+- Mejor organización y pruebas unitarias
